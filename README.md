@@ -4,16 +4,33 @@
 <summary>Module 1 : Principes de base du Kotlin </summary>
 
     - Présentation du Kotlin
+        -Connaissance avec l'équipe et découvrez les éléments dont vous aurez besoin pour commencer à développer des applications Android en Kotlin.
+        -Découvrez les objectifs et les exigences du cours dans cette présentation du Module 1.
+        4 parcours:
+            -Kotlin basics
+            -Android Studio
+            -create birthday card App
+            -Dice roller App
     - Créer votre première application
-        - Principes de base des tests Android (tests unitaires)
+        -Découvrez Android Studio
+        -Installation Android Studio
+        -Création et exécution  première application Android
+        - Effectuer des tests et comment les automatiser dans les applications Android.
+        -Localiser le code des tests unitaires
     - Créer une mise en page de base
-        - Un élément TextView est un composant d'interface utilisateur permettant d'afficher du texte dans votre application.
-        - Un ConstraintLayout est un conteneur pour d'autres éléments d'UI.
-        - Les Views doivent être fixées horizontalement et verticalement dans un conteneur ConstraintLayout.
-        - Une ImageView est un élément d'interface utilisateur permettant d'afficher des images dans votre application.
-    - Ajouter un bouton à une application
+        - Découvrez les outils que vous utiliserez pour commencer à développer des applications.
+        - création d'une application Android simple qui affiche du texte. 
+        - découvrant les composants d'interface utilisateur (UI) sous Android (TextView) .
+    - Ajouter un bouton à une application(Dice Roller)
+        -Création de la mise en page de l'application
+        -Activity
+        -Adopter les bonnes pratiques de codage
+        -creation de class
+        -Les déclarations de fonctions en Kotlin
+        -Renvoyer une valeur à partir d'une fonction
+        -Création des tests unitaires
         - Introduction au débogage
-        - Créer des tests unitaires
+        
 
 </details>
  
