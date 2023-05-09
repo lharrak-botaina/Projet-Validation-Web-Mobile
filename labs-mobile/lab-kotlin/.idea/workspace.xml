@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="914d62f1-4bcc-4588-bd66-412af8826a36" name="Changes" comment="[DELETE]lab-kotlin-copier" />
+    <list default="true" id="914d62f1-4bcc-4588-bd66-412af8826a36" name="Changes" comment="[DELETE]lab-kotlin-copier">
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/dictionaries/essarraj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-mise-en-page/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
