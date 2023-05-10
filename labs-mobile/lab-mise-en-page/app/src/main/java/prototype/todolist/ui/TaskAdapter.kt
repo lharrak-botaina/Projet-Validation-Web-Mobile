@@ -27,6 +27,7 @@ class TaskAdapter() : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
     class TaskViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val taskTitle: TextView = view.findViewById<Button>(R.id.taskTitle)
         val taskPriority: TextView = view.findViewById<Button>(R.id.taskPriority)
+        val priorityArray : Array<String> = view.resources.getStringArray(R.array.priorities)
         val taskTimestamp: TextView = view.findViewById<Button>(R.id.taskTimestamp)
         val cardView: CardView = view.findViewById(R.id.cardview)
 
@@ -46,7 +47,14 @@ class TaskAdapter() : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
     override fun onBindViewHolder(taskViewHolder: TaskViewHolder, position: Int) {
         val task = this.taskRepository.getAllTasks()[position]
         taskViewHolder.taskTitle.text = task.title
-        taskViewHolder.taskPriority.text = task.priority.toString()
+        if(task.priority.equals(1)){
+            taskViewHolder.taskPriority.text = taskViewHolder.priorityArray[0]
+        }else if (task.priority.equals(2)){
+            taskViewHolder.taskPriority.text = taskViewHolder.priorityArray[1]
+        }else{
+            taskViewHolder.taskPriority.text = taskViewHolder.priorityArray[2]
+        }
+
         taskViewHolder.taskTimestamp.text = task.timestamp.toString()
 
         taskViewHolder.cardView.setOnClickListener {

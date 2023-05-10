@@ -5,8 +5,8 @@
 
 
     - Présentation du Kotlin
-        -Connaissance avec l'équipe et découvrez les éléments dont vous aurez besoin pour commencer à développer des applications Android en Kotlin.
-        -Découvrez les objectifs et les exigences du cours dans cette présentation du Module 1.
+    -Connaissance avec l'équipe et découvrez les éléments dont vous aurez besoin pour commencer à développer des applications Android en Kotlin.
+    -Découvrez les objectifs et les exigences du cours dans cette présentation du Module 1.
         4 parcours:
             -Kotlin basics
             -Android Studio
@@ -35,15 +35,19 @@
 
 </details>
  
-<details> 
+
+
+ <details> 
 <summary> Module 2 : Mises en page </summary>
 
-    - Recevoir des entrées utilisateur dans une application : partie 1
-        - Classes et héritage 
-    - Recevoir des entrées utilisateur dans une application : partie 2
+    - Classes et héritage en Kotlin
+    - Découvrez les nouveaux composants d'interface utilisateur XML pour Android.
+    - Tester et déboguer
     - Afficher une liste déroulante
-        - Créer et utiliser des listes en Kotlin
+    - Créer et utiliser des listes en Kotlin
 </details>
+
+
 <details> 
 <summary>Module 3 : Navigation</summary>
 
