@@ -44,6 +44,7 @@
     - Découvrez les nouveaux composants d'interface utilisateur XML pour Android.
     - Tester et déboguer
     - Afficher une liste déroulante
+    - view binding
     - Créer et utiliser des listes en Kotlin
 </details>
 
