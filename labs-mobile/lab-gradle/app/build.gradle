@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.todo_list'
+    namespace 'com.example.lab_gradle'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.todo_list"
+        applicationId "com.example.lab_gradle"
         minSdk 33
         targetSdk 33
         versionCode 1
@@ -29,9 +29,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-    buildFeatures {
-        viewBinding = true
     }
 }
 
