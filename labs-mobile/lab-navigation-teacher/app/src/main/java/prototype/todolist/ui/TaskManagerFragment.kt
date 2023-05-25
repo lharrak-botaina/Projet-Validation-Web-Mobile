@@ -30,7 +30,7 @@ class TaskManagerFragment : Fragment() {
         setHasOptionsMenu(true)
     }
 
-
+// The onCreateView() function inflates the layout for the fragment and returns the root view.
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -42,6 +42,9 @@ class TaskManagerFragment : Fragment() {
         return view
     }
 
+
+
+    //The onViewCreated() function sets up the RecyclerView to display the list of tasks and sets a click listener on the "Add" button to navigate to the TaskFormFragment
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         recyclerView = binding.recyclerView
 
@@ -68,11 +71,27 @@ class TaskManagerFragment : Fragment() {
     }
 
     // Todo : Implémentez le code du button Ajouter une tâche dans le menu
+    //The onCreateOptionsMenu() function inflates the menu layout for the fragment.
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.layout_menu, menu)
-
-
     }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.item_menu_add -> {
+                val action = TaskManagerFragmentDirections.actionTaskManagerFragmentToTaskFormFragment(taskid = 0)
+                recyclerView.findNavController().navigate(action)
+                true
+            }
+            R.id.item_menu_test -> {
+                val action = TaskManagerFragmentDirections.actionTaskManagerFragmentToTestFragment()
+                recyclerView.findNavController().navigate(action)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+
 
 
 
