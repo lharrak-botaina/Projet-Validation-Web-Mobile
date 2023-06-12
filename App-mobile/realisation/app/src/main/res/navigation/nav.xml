@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.myapplication.ui.WeatherFragment"
+        android:label="WeatherFragment" >
+        <action
+            android:id="@+id/action_weatherFragment_to_weathetSaveFragment"
+            app:destination="@id/weathetSaveFragment" />
+        <action
+            android:id="@+id/action_weatherFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weathetSaveFragment"
+        android:name="com.example.myapplication.ui.WeathetSaveFragment"
+        android:label="WeathetSaveFragment" >
+        <action
+            android:id="@+id/action_weathetSaveFragment_to_weatherShowFragment2"
+            app:destination="@id/weatherShowFragment" />
+        <action
+            android:id="@+id/action_weathetSaveFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+        <action
+            android:id="@+id/action_weathetSaveFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherShowFragment"
+        android:name="com.example.myapplication.ui.WeatherShowFragment"
+        android:label="WeatherShowFragment" >
+        <action
+            android:id="@+id/action_weatherShowFragment_to_weathetSaveFragment2"
+            app:destination="@id/weathetSaveFragment" />
+        <argument
+            android:name="idCity"
+            app:argType="integer" />
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.myapplication.ui.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_weathetSaveFragment"
+            app:destination="@id/weathetSaveFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+    </fragment>
+</navigation>

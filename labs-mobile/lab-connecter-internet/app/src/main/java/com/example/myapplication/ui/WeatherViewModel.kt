@@ -10,10 +10,10 @@ class WeatherViewModel : ViewModel() {
     // TODO: Implement the ViewModel
     private val weatherRepository = WeatherRepo()
 
-    fun getWeather() = liveData(Dispatchers.IO) {
+    fun getWeather(name :String) = liveData(Dispatchers.IO) {
         emit(Resource.loading(data = null))
         try {
-            emit(Resource.success(data = weatherRepository.getWeatherRepo()))
+            emit(Resource.success(data = weatherRepository.getWeatherRepo(name)))
         } catch (exception: Exception) {
             emit(Resource.error(data = null, message = exception.message ?: "Error Occurred!"))
         }

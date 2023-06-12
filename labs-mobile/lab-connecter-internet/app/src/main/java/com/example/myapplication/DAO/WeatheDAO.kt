@@ -21,5 +21,5 @@ class WeatheDAO {
         val apiService: WeatherApiInterface = getRetrofit().create(WeatherApiInterface::class.java)
     }
 
-    suspend fun getWeatherDAO() = apiService.getWeatherInterface()
+    suspend fun getWeatherDAO(name : String) = apiService.getWeatherInterface(name)
 }

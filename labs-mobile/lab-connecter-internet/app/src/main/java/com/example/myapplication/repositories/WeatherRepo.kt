@@ -5,5 +5,5 @@ import com.example.myapplication.DAO.WeatheDAO
 class WeatherRepo {
     private val tasksDao = WeatheDAO()
 
-    suspend fun getWeatherRepo() = tasksDao.getWeatherDAO()
+    suspend fun getWeatherRepo(name :String) = tasksDao.getWeatherDAO(name)
 }

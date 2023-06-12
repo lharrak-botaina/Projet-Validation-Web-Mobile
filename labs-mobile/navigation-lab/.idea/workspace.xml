@@ -10,19 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a44f062-a351-4be5-9faa-bc78748f7497" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/app/src/main/java/prototype/todolist/ui/TaskAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/app/src/main/java/prototype/todolist/ui/TaskAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/app/src/main/java/prototype/todolist/ui/TaskManagerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/app/src/main/java/prototype/todolist/ui/TaskManagerFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-navigation-teacher/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-navigation-teacher/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/res/navigation/nav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewModel#/app/src/main/java/com/example/myapplication/GameFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewModel#/app/src/main/java/com/example/myapplication/ViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewModel#/app/src/main/res/layout/fragment_game.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/DAO/API/WeatherApiInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/DAO/API/WeatherApiInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/DAO/WeatheDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/DAO/WeatheDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/repositories/WeatherRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/repositories/WeatherRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/ui/WeatherFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/ui/WeatherFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/ui/WeatherViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/java/com/example/myapplication/ui/WeatherViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/app/src/main/res/layout/fragment_weather.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-connecter-internet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-connecter-internet/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
@@ -70,13 +77,57 @@
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/java/com/example/android/unscramble/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/java/com/example/android/unscramble/ui/game/GameFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/java/com/example/android/unscramble/ui/game/GameViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/java/com/example/android/unscramble/ui/game/ListofWords.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/drawable/ic_error.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/layout/game_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/layout/main_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/code-of-conduct.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viewModel/android-basics-kotlin-unscramble-app/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Solicode\.android\avd\Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Solicode\.android\avd\Pixel_XL_API_UpsideDownCake.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -112,7 +163,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-navigation-teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -173,9 +224,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="ProgrammeTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.todo_list.ProgrammeTestKt" />
