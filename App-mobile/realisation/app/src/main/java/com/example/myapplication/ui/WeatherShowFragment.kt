@@ -29,6 +29,16 @@ class WeatherShowFragment  : BaseFragment<FragmentWeatherShowBinding>(FragmentWe
 var city:String  =""
 var iconWeather:String  =""
 var idCity:Int  =0
+    var forecast : String=""
+    var temp : String=""
+    var time : String=""
+    var   country : String=""
+    var  humidity : String=""
+    var   min_temp : String=""
+    var  tem_up : String=""
+    var  sunrises : String=""
+    var sunsets : String=""
+    var description : String=""
 
     override fun init(view: View) {
 
@@ -37,6 +47,7 @@ var idCity:Int  =0
                 if (it != null) {
                     city = it.getString("cityName", " ")
                     idCity = it.getInt("idCity", 0)
+
                 }
 
             }
@@ -53,6 +64,11 @@ var idCity:Int  =0
                         binding.apply {
                             cityName.text = it.data?.city
                             iconWeather = it.data?.icon.toString()
+                            forecast = it.data?.main.toString()
+                            temp =it.data?.temp.toString()
+                            country=it.data?.country.toString()
+                            humidity = it.data?.humidity.toString()
+                            description=it.data?.description.toString()
 
                             context?.let { it1 ->
                                 Glide

@@ -29,6 +29,7 @@ class WeatherSaveAdapter (private val weather: ArrayList<SaveWeather>, navContro
 
     class DataViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val city : TextView = view.findViewById(R.id.cityName)
+
         val removeBtn : TextView = view.findViewById<Button>(R.id.btnRemove)
         val cardView: CardView = view.findViewById(R.id.cardview)
 

@@ -25,10 +25,21 @@ class WeatherFragment  : BaseFragment<FragmentWeatherBinding>(FragmentWeatherBin
 
 
     private val viewModel: WeatherViewModel by viewModels()
-var city:String  =""
-var userId:Int  =0
-var idCity:Int  =0
-var iconWeather:String  =""
+    var city:String  =""
+    var userId:Int  =0
+    var idCity:Int  =0
+    var iconWeather:String  =""
+    var forecast : String=""
+    var temp : String=""
+    var time : String=""
+    var   country : String=""
+    var  humidity : String=""
+    var   min_temp : String=""
+    var  tem_up : String=""
+    var  sunrises : String=""
+    var sunsets : String=""
+    var description : String=""
+
 
     override fun init(view: View) {
         val prefs = requireContext().getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
@@ -50,11 +61,14 @@ var iconWeather:String  =""
                         Status.LOADING ->showProgressBar()
                         Status.ERROR -> showResponseError(it.message.toString())
                         Status.SUCCESS -> {
-
-                             city =   it.data?.city.toString()
                             idCity = it.data?.id_city!!
+                             city =   it.data?.city.toString()
+                            forecast = it.data?.main.toString()
+                            temp =it.data?.temp.toString()
+                            country=it.data?.country.toString()
+                            humidity = it.data?.humidity.toString()
+                            description=it.data?.description.toString()
                             iconWeather = it.data?.icon.toString()
-
                             cityName.text = it.data?.city
 
                             context?.let { it1 ->
