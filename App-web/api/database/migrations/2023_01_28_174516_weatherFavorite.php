@@ -13,10 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
+
+
+
         Schema::create('weatherFavorite', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->integer('user_id');
+            $table->integer('city_id');
             // $table->string("country");
             // $table->string("coulds");
             // $table->string("temp");

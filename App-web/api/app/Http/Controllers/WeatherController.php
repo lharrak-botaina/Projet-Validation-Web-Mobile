@@ -14,6 +14,22 @@ class WeatherController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     function  WeatherExist($user_id,$city_id)
+     {
+         $list = Weather::where([
+            ["user_id", $user_id],
+            ["city_id", $city_id]
+         ])->get();
+         if (!empty($list[0])) {
+             return true;
+         } else {
+             return false;
+         }
+         // dd($list);
+         // return $list;
+     }
+
     public function CityList()
     {
         $list = weather::all();
@@ -139,7 +155,8 @@ class WeatherController extends Controller
             ]
         ]);
 
-        $response = $client->request('GET', 'https://api.openweathermap.org/data/2.5/weather?q=' . $name . '&appid=1253309e30b4fb953c136c1426565be0&units=metric');
+        $response = $client->request('GET', 'https://api.openweathermap.org/data/2.5/weather?q=' . $name . '&appid=1253309e30b4fb953c136c1426565be0&units=metric&weather.icon');
+        // &lang=an&timezone=Africa/Casablanca
 
         $data = json_decode($response->getBody(), true);
 
@@ -147,10 +164,18 @@ class WeatherController extends Controller
         $id = $data['id'];
 
 
+
         $humidity =  $data["main"]["humidity"];
         $temp =  $data["main"]["temp"];
+        $tempMax =  $data["main"]["temp_max"];
+        $tempMin =  $data["main"]["temp_min"];
+        $pressure =  $data["main"]["pressure"];
+        $wind =  $data["wind"]["speed"];
+        $sunrise =  $data["sys"]["sunrise"];
+        $sunset =  $data["sys"]["sunset"];
         $feels_like =  $data["main"]["feels_like"];
         $city = $data["name"];
+        $timeZone = $data["timezone"];
         $country = $data["sys"]["country"];
 
         $weather[0] += array(
@@ -160,7 +185,18 @@ class WeatherController extends Controller
             "temp" => $temp,
             "feels_like" => $feels_like,
             "city" => $city,
-            "country" => $country
+            "country" => $country,
+            "temp_max"=>$tempMax,
+            "temp_min"=>$tempMin,
+            "pressure"=>$pressure,
+            "speed"=>$wind,
+            "sunrise"=>$sunrise,
+            "sunset"=>$sunset,
+            "timezone"=>$timeZone
+
+
+
+
         );
 
 
@@ -169,13 +205,11 @@ class WeatherController extends Controller
 
     function SaveCity(Request $request)
     {
-
         $weather = new Weather();
 
-        $weather->id = $request->id;
         $weather->name = $request->city;
         $weather->user_id = $request->user_id;
-
+        $weather->city_id = $request->id;
         $weather->save();
         return true;
     }
@@ -187,15 +221,19 @@ class WeatherController extends Controller
         ->get();
         return $weather;
    }
-   function delete($id){
-    Weather::where("id", $id)->delete();
+   function delete($id,$user_id){
+    Weather::where([
+        ["id", $id],
+        ['user_id',$user_id]
+    ])->delete();
         $listAll = Weather::all();
         return true;
    }
    function Login(Request $request)
    {
 
-       $user = User::select("id", "name", "password", "email")->where([
+
+       $user = User::select("id", "password", "email")->where([
            ["email", $request->email],
            ["password", $request->password]
        ])->first();
@@ -203,6 +241,7 @@ class WeatherController extends Controller
        if ($user) {
 
            return $user;
+
        } else {
            return false;
        }

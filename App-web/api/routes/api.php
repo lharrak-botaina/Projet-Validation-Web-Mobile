@@ -29,7 +29,10 @@ Route::get('/getApi',[WeatherController::class,'getApi']);
 
 //-----------
 Route::get('witherApi/{name}',[WeatherController::class,'witherApi']);
+
 Route::post('SaveCity',[WeatherController::class,'SaveCity']);
+
 Route::get('SaveList/{user_id}',[WeatherController::class,'SaveList']);
-Route::delete('delete/{id}',[WeatherController::class,'delete']);
+Route::delete('delete/{id}/{user_id}',[WeatherController::class,'delete']);
 Route::post('Login',[WeatherController::class,'Login']);
+Route::get('WeatherExist/{user_id}/{city_id}',[WeatherController::class,'WeatherExist']);
